@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import postsData from '../../data/posts.json';
+import postsData from '../../Data/posts.json';
 
 const categories = [
   'جميع المقالات',
