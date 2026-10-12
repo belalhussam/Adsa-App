@@ -49,13 +49,13 @@ export default function NavBar() {
                   الرئيسية
                 </NavLink>
                 <NavLink
-                  to="/blog"
+                  to="blog"
                   className="px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 text-neutral-400 hover:text-white"
                 >
                   المدونة
                 </NavLink>
                 <NavLink
-                  to="/about"
+                  to="about"
                   className="px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 text-neutral-400 hover:text-white"
                 >
                   من نحن
@@ -79,7 +79,7 @@ export default function NavBar() {
                   ></path>
                 </svg>
               </button>
-              <Link to="/blog" className="btn-primary text-sm">
+              <Link to="blog" className="btn-primary text-sm">
                 ابدأ القراءة
               </Link>
             </div>
@@ -123,21 +123,21 @@ export default function NavBar() {
                   الرئيسية
                 </NavLink>
                 <NavLink
-                  to="/blog"
+                  to="blog"
                   onClick={closeMenu}
                   className="px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300 text-neutral-400 hover:bg-dark-tertiary hover:text-white"
                 >
                   المدونة
                 </NavLink>
                 <NavLink
-                  to="/about"
+                  to="about"
                   onClick={closeMenu}
                   className="px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300 text-neutral-400 hover:bg-dark-tertiary hover:text-white"
                 >
                   من نحن
                 </NavLink>
                 <Link
-                  to="/blog"
+                  to="blog"
                   onClick={closeMenu}
                   className="btn-primary text-sm mt-2"
                 >

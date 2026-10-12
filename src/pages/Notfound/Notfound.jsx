@@ -67,7 +67,7 @@ export default function NotFound() {
             </Link>
             <Link
               className="btn-secondary inline-flex items-center justify-center gap-2"
-              to="blog"
+              to="/blog"
             >
               <svg
                 className="size-5"
@@ -90,7 +90,7 @@ export default function NotFound() {
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <Link
                 className="text-orange-500 hover:text-orange-400 hover:underline font-medium"
-                to="blog"
+                to="/blog"
               >
                 المدونة
               </Link>
@@ -104,7 +104,7 @@ export default function NotFound() {
               <span className="text-neutral-600">•</span>
               <Link
                 className="text-orange-500 hover:text-orange-400 hover:underline font-medium"
-                to="privacy"
+                to="/privacy"
               >
                 الخصوصية
               </Link>
